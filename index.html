@@ -3,6 +3,11 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Ntaoleng J. Mabote is a front-end developer based in South Africa. She specializes in creating responsive and user-friendly websites using HTML, CSS, and JavaScript."
+    />
+    <title>Ntaoleng J. Mabote - Portfolio</title>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -23,47 +28,96 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+
     <script
-      type="module"
       src="https://cdn.jsdelivr.net/npm/bootstrap@6.0.0-alpha.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-1a/pXj49ZQ1aHEmrJ+gMw1otqoVsYwlEnlD8mIfY2TV03r20Y0CN7uqx1tQogjPL"
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://kit.fontawesome.com/c9a95f3fcf.js"
+      src="https://kit.fontawesome.com/ddc3ee268a.js"
       crossorigin="anonymous"
     ></script>
-
-    <title>Portfolio</title>
   </head>
   <body>
-    <div class="hero">
-      <p>Hello, I am...</p>
-      <h1>Ntaoleng J. Mabote</h1>
-      <h3 class="mb-5">Front-end Developer based in South Africa</h3>
-      <div>
-        <a href="/contact.html" class="btn btn-branding">contact me</a>
-      </div>
-    </div>
-
-    <h2 class="mb-5">About Me</h2>
-    <p class="mb-5">
-      Far far away, behind the word mountains, far from the countries Vokalia
-      and Consonantia, there live the blind texts. Separated they live in
-      Bookmarksgrove right at the coast of the Semantics, a large language
-      ocean. A small river named Duden flows by their place and supplies it with
-      the necessary regelialia. It is a paradisematic country, in which roasted
-      parts of sentences fly into your mouth.
-    </p>
-    <a href="#" class="btn btn-branding-outline">Download CV</a>
-
-    <p class="text-center m-5">
-      Featured Project which my best projects be choice to show
-    </p>
     <div class="container">
+      <nav class="navbar navbar-expand-md navbar-light bg-light">
+        <div class="container-fluid">
+          <a href="/">
+            <img
+              src="images/Ntaoleng Logo.jpg"
+              class="logo img-fluid d-none d-md-block"
+              alt="Ntaoleng Mabote Logo"
+            />
+            <img
+              src="images/ntaoleng small logo.jpg"
+              class="logo img-fluid d-block d-md-none"
+              alt="Ntaoleng Mabote Logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-end"
+            id="navbarNav"
+          >
+            <ul class="navbar-nav flex-md-row flex-column- align-items-center">
+              <li class="nav-item">
+                <a class="nav-link" href="/">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="/about.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/work.html">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="hero">
+        <p>Hello, I am...</p>
+        <h1>Ntaoleng J. Mabote</h1>
+        <h3 class="mb-5">Front-end Developer based in South Africa</h3>
+        <div>
+          <a href="/contact.html" title="Contact me" class="btn btn-branding"
+            >contact me</a
+          >
+        </div>
+      </div>
+
+      <h2 class="mb-5">About Me</h2>
+      <p class="mb-5">
+        Far far away, behind the word mountains, far from the countries Vokalia
+        and Consonantia, there live the blind texts. Separated they live in
+        Bookmarksgrove right at the coast of the Semantics, a large language
+        ocean. A small river named Duden flows by their place and supplies it
+        with the necessary regelialia. It is a paradisematic country, in which
+        roasted parts of sentences fly into your mouth.
+      </p>
+
+      <p class="text-center m-5">
+        Featured Project which my best projects be choice to show
+      </p>
       <div class="row mb-5">
         <div class="col">
-          <img src="images/yogurt.png" class="img-fluid" alt="" />
+          <img
+            src="images/yogurt.png"
+            class="img-fluid"
+            alt="yogurt project preview"
+          />
         </div>
         <div class="col">
           <div class="project-description">
@@ -74,7 +128,11 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a
+              href="https://stellular-muffin-a644bf.netlify.app"
+              class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
       </div>
@@ -88,16 +146,28 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a
+              href="https://roaring-twilight-1049e6.netlify.app"
+              class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
         <div class="col">
-          <img src="images/weather.png" class="img-fluid" alt="" />
+          <img
+            src="images/weather.png"
+            class="img-fluid"
+            alt="weather project preview"
+          />
         </div>
       </div>
       <div class="row">
         <div class="col">
-          <img src="images/dictionary.png" class="img-fluid" alt="" />
+          <img
+            src="images/dictionary.png"
+            class="img-fluid"
+            alt="dictionary project preview"
+          />
         </div>
 
         <div class="col">
@@ -109,10 +179,68 @@
               they live in Bookmarksgrove right at the coast of the Semantics, a
               large language ocean. A small river named Duden flows by
             </p>
-            <a href="#" class="btn btn-branding-outline">View Project</a>
+            <a
+              href="https://comfy-sunshine-dad1f5.netlify.app"
+              class="btn btn-branding-outline"
+              >View Project</a
+            >
           </div>
         </div>
       </div>
+      <footer class="container">
+        <div
+          class="contact-box d-flex justify-content-between mb-5 d-none d-md-flex"
+        >
+          <div>
+            <h4>Work Inquiry</h4>
+            <p class="text-muted">Let's work together!</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              title="Contact Ntaoleng"
+              class="btn btn-branding mt-3"
+              >Contact Me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center mb-5">
+          <a href="mailto:mabotejuliet@gmail.com" title="Send an email">
+            mabotejuliet@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center ml-5">
+          <a
+            href="https://www.instagram.com/juelzlicious/"
+            target="_blank"
+            title="Ntaoleng's Instagram"
+          >
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/juliet-ntaoleng-mabote-2b1a32134/"
+            target="_blank"
+            title="Ntaoleng's LinkedIn"
+          >
+            <i class="fab fa-linkedin"></i>
+          </a>
+          <a
+            href="https://github.com/mabotejuliet-16"
+            target="_blank"
+            title="Ntaoleng's GitHub"
+          >
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+        <p class="text-center mt-4">
+          📖 This project was coded by Ntaoleng J. Mabote, and is
+          <a
+            href="https://darling-lebkuchen-f83e7f.netlify.app"
+            title="view the code on Netlify"
+            >open sourced.</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
